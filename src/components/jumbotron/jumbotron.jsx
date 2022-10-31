@@ -8,7 +8,7 @@ export default function Jumbotron(props) {
                     <h1> {props.header}</h1>
                     <h2> {props.text}</h2>
                 </div>
-                <div className='jumbo_card' style={ props.textleft ? { order: '1'  } : { order: '1' }}>            
+                <div className='jumbo_card' style={ props.textleft ? { order: '1'  } : { order: '2' }}>            
                     <img src={props.imgsrc} alt=''></img> 
                 </div>
             </div>

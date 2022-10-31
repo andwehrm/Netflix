@@ -1,4 +1,6 @@
 hr.pageDivider{
+    padding-top: 0;
+    margin-top: 0;
     background-color: rgb(39, 39, 39);
     color: rgb(39, 39, 39);
     border: none;

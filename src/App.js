@@ -1,7 +1,8 @@
 import './App.css';
-import Startpagelayout from './components/startpagelayout/startpagelayout';
-import Header from './components/header/header';
-import Jumbotron from './components/jumbotron/jumbotron'
+import DividedLayout from './components/dividedLayout/dividedLayout';
+import StartPageHeader from './components/startPageHeader/startPageHeader';
+import Jumbotron from './components/jumbotron/jumbotron';
+import InfoBoxRegister from './components/infoBoxRegister/infoBoxRegister';
 
 const jumbos = [
   {
@@ -36,21 +37,22 @@ const jumbos = [
 
 function App() {
   let i = 0;
-  const jumbotrons =  jumbos.map(jumbo => {
-    let left = true;
-    i += 1;
-    if(i % 2)
+  const jumbotrons = jumbos.map(jumbo => {
+      let left = true;
+      i += 1;
+      if(i % 2)
       left = false;
-    return <Jumbotron key={jumbo.id} imgsrc={jumbo.imgsrc} textleft={left} header={jumbo.header} text={jumbo.text} />   
+      return <Jumbotron key={jumbo.id} imgsrc={jumbo.imgsrc} textleft={left} header={jumbo.header} text={jumbo.text} />   
   })
 
   return (
     <div className="App">
-
-      <Startpagelayout>
-       <Header/>
-       {jumbotrons}
-      </Startpagelayout>
+      <DividedLayout>
+        <StartPageHeader/>
+        {jumbotrons}
+        <InfoBoxRegister/>
+        
+      </DividedLayout>
     </div>
   );
 }

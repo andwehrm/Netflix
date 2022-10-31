@@ -1,14 +1,14 @@
-import './startpagelayout.css';
+import './dividedLayout.css';
 import React from 'react';
 
-export default function Startpagelayout(props) {
+export default function DividedLayout(props) {
   return (
-    <div className='pageLayout'>
+    <div className='dividedLayout'>
         {React.Children.map(props.children, (child) => {          
          return ( 
          <>
-         {child} 
-         <hr className='pageDivider'></hr> 
+          {child} 
+          <hr className='pageDivider'></hr> 
          </> 
          )  
         })}
