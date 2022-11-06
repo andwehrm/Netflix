@@ -1,6 +1,7 @@
 import './dividedLayout.css';
 import React from 'react';
 
+
 export default function DividedLayout(props) {
   return (
     <div className='dividedLayout'>
