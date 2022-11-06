@@ -3,6 +3,8 @@
     top: -1300px;
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .imageBackground{

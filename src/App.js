@@ -3,6 +3,7 @@ import DividedLayout from './components/dividedLayout/dividedLayout';
 import StartPageHeader from './components/startPageHeader/startPageHeader';
 import Jumbotron from './components/jumbotron/jumbotron';
 import InfoBoxRegister from './components/infoBoxRegister/infoBoxRegister';
+import StartPageFooter from './components/startPageFooter/startPageFooter';
 
 const jumbos = [
   {
@@ -51,7 +52,7 @@ function App() {
         <StartPageHeader/>
         {jumbotrons}
         <InfoBoxRegister/>
-        
+        <StartPageFooter/>
       </DividedLayout>
     </div>
   );
