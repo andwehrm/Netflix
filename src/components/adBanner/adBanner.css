@@ -1,0 +1,28 @@
+.adBanner {
+    background-color: white;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adBanner >  a {
+    text-decoration: none;
+    color: rgb(0, 113,235);
+    font-size: 16px;
+    font-weight: 750;
+}
+
+.adBanner__text{
+    font-size: 18px;
+}
+
+.adBanner__amount{
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.adBanner__link{
+    margin-left: 2rem;
+}
