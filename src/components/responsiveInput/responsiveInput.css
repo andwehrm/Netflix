@@ -1,0 +1,13 @@
+.responsiveInputContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.responsiveInputError{
+    color: rgb(255,160,10);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 8px;
+}
