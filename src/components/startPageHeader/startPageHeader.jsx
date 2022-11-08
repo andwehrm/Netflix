@@ -21,7 +21,7 @@ export default function StartPageHeader() {
       <StaticLogo />
       <StaticHeader>
         <LanguagePicker />
-        <LoginButton link="localhost:3000" />
+        <LoginButton link="http://localhost:3000/login" />
       </StaticHeader>
       <ImageBackground img="images/header.jpeg" alt="" height={750}>
         <TitledMailRegister

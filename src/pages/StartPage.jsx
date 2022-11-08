@@ -1,14 +1,14 @@
-import "./App.css";
-import footerData from "./data/footerData.json";
-import faqData from "./data/faqData.json";
-import jumboData from "./data/jumboData";
-import Jumbotron from "./components/jumbotron/jumbotron";
-import DividedLayout from "./components/dividedLayout/dividedLayout";
-import StartPageHeader from "./components/startPageHeader/startPageHeader";
-import InfoBoxRegister from "./components/infoBoxRegister/infoBoxRegister";
-import StartPageFooter from "./components/startPageFooter/startPageFooter";
+import footerData from "../data/footerData.json";
+import faqData from "../data/faqData.json";
+import jumboData from "../data/jumboData";
+import Jumbotron from "../components/jumbotron/jumbotron";
+import DividedLayout from "../components/dividedLayout/dividedLayout";
+import StartPageHeader from "../components/startPageHeader/startPageHeader";
+import InfoBoxRegister from "../components/infoBoxRegister/infoBoxRegister";
+import StartPageFooter from "../components/startPageFooter/startPageFooter";
 
-function App() {
+
+function StartPage() {
   let i = 0;
   const jumbotrons = jumboData.map((jumbo) => {
     let left = true;
@@ -26,7 +26,7 @@ function App() {
   });
 
   return (
-    <div className="App">
+    <div className="startPage" style={{backgroundColor: '#000000'}}>
       <StartPageHeader />
       <DividedLayout dividerHeight="8px" dividerColor="#1f1f1f">
         {jumbotrons}
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default StartPage;

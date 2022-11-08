@@ -4,7 +4,7 @@ import "./imageBackground.css";
 export default function ImageBackground(props) {
   let height = props.height || "750px";
   let contentpos = props.height * -1.73333 || "-1300px";
-  let gradientHeight = (props.height + 3) * -1 || "-753px";
+  let gradientHeight = (props.height + 4) * -1 || "-754px";
 
   return (
     <div className="imageBackground" style={{ height: height }}>
