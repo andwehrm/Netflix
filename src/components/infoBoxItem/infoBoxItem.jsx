@@ -6,7 +6,7 @@ export default function InfoBoxItem(props) {
 
   return (
     <>
-        <li className='infoBoxItem'>
+        <li key={props.id} className='infoBoxItem'>
             <button onClick={ () => { setOpen(!open) }}>
                 { props.title }
             </button>

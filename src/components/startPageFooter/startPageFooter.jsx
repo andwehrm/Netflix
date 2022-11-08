@@ -7,10 +7,10 @@ export default function StartPageFooter(props) {
   return (
     <div className='startPageFooterContainer'>
         <div className='startPageFooter'>
-            <h1>Fragen? Einfach anrufen: 0800-000-9677</h1>
+            <h1>{props.title}</h1>
             <FooterLinkStructure {...props}/>
             <LanguagePicker/>
-            <p>Netflix Deutschland</p>
+            <p>{props.country}</p>
         </div>
     </div>
   )

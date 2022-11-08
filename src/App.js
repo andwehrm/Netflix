@@ -168,8 +168,9 @@ function App() {
       <StartPageHeader/>
       <DividedLayout dividerHeight='8px' dividerColor='#1f1f1f'>
         {jumbotrons}
-        <InfoBoxRegister questions={faq_questions}/>
-        <StartPageFooter links={footer_links}/>
+        <InfoBoxRegister title='Häufig gestellte Fragen' questions={faq_questions}/>
+        <StartPageFooter title='Fragen? Einfach anrufen: 0800-000-9677' 
+                         country='Netflix Deutschland' links={footer_links}/>
       </DividedLayout>
     </div>
   );
