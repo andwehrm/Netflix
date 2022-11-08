@@ -6,10 +6,12 @@ import './startPageHeader.css'
 import StaticHeader from '../staticHeader/staticHeader'
 import LanguagePicker from '../languagePicker/languagePicker'
 import LoginButton from '../loginButton/loginButton'
+import AdBanner from '../adBanner/adBanner'
 
 export default function StartPageHeader() {
   return (
     <div className='startPageHeader'>
+        <AdBanner/>
         <StaticLogo/>
         <StaticHeader>
           <LanguagePicker/>

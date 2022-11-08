@@ -1,0 +1,65 @@
+.infoBoxItem {
+    margin-bottom: 6px;
+}
+
+.infoBoxText{
+    color: rgb(255, 255, 255);
+    direction: ltr;
+    display: inline-block;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    height: 198px;
+    letter-spacing: normal;
+    list-style-type: none;
+    padding-bottom: 31.200001px;
+    padding-left: 31.200001px;
+    padding-right: 31.200001px;
+    padding-top: 31.200001px;
+    text-align: left;
+    width: 752.625px;
+}
+
+.infoBoxContent__open, .infoBoxContent__closed {
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 400;
+    height: 260px;
+    max-height: 1200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: left;
+    transition-delay: 0s;
+    transition-duration: 0.25s;
+    transition-property: max-height;
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    width: 815px;
+}
+
+.infoBoxContent__closed {
+    max-height: 0px;
+}
+
+.infoBoxItem > button{
+    appearance: button;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 400;
+    height: 74.59375px;
+    letter-spacing: normal;
+    line-height: normal;
+    list-style-type: none;
+    margin-bottom: 1px;
+    padding-bottom: 20.799999px;
+    padding-left: 31.200001px;
+    padding-right: 57.200001px;
+    padding-top: 20.799999px;
+    position: relative;
+    text-align: left;
+    text-indent: 0px;
+    width: 815px;
+}

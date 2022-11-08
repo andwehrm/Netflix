@@ -1,14 +1,16 @@
 import React from 'react'
 import InfoBox from '../infoBox/infoBox'
-import MailRegister from '../mailRegister/mailRegister'
+import TitledMailRegister from '../titledMailRegister/titledMailRegister'
 import './infoBoxRegister.css'
 
 
-export default function InfoBoxRegister() {
+export default function InfoBoxRegister(props) {
   return (
     <div className='infoBoxRegister'>
-        <InfoBox/>
-        <MailRegister/>
+        <InfoBox {...props}/>
+        <TitledMailRegister context='infobox'
+                            subline='Sind Sie startklar? Geben Sie Ihre E-Mail-Adresse ein, um Ihre Mitgliedschaft zu beginnen oder zu reaktivieren.'>
+        </TitledMailRegister>
     </div>
   )
 }

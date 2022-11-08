@@ -36,6 +36,37 @@ const jumbos = [
   }
 ]
 
+const faq_questions = [ 
+  {
+    id: 0,
+    text: 'Welche Inhalte kann ich auf Netflix sehen?',
+  },
+  {
+    id: 1,
+    text: 'Was ist Netflix?',
+  },
+  {
+    id: 2,
+    text: 'Wie viel kostet Netflix?',
+  },
+  { 
+    id: 3,
+    text: 'Was ist anders beim Basis-Abo mit Werbung?',
+  },
+  {
+    id: 4,
+    text: 'Wo kann ich Inhalte ansehen?',
+  },
+  {
+    id: 5,
+    text: 'Wie kann ich kündigen?',
+  },
+  {
+    id: 6,
+    text: 'Ist Netflix gut für Kinder?',
+  }
+]
+
 function App() {
   let i = 0;
   const jumbotrons = jumbos.map(jumbo => {
@@ -51,7 +82,7 @@ function App() {
       <DividedLayout>
         <StartPageHeader/>
         {jumbotrons}
-        <InfoBoxRegister/>
+        <InfoBoxRegister questions={faq_questions}/>
         <StartPageFooter/>
       </DividedLayout>
     </div>
