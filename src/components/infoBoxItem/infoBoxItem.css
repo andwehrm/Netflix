@@ -9,7 +9,7 @@
     font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: 400;
-    height: 198px;
+    height: fit-content;
     letter-spacing: normal;
     list-style-type: none;
     padding-bottom: 31.200001px;
@@ -25,7 +25,6 @@
     color: rgb(255, 255, 255);
     font-size: 26px;
     font-weight: 400;
-    height: 260px;
     max-height: 1200px;
     overflow-x: hidden;
     overflow-y: hidden;

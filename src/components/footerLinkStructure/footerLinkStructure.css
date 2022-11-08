@@ -1,0 +1,23 @@
+.footerLinkStructure{
+    padding: 0;
+    list-style: none;
+    width: 900px;
+    margin-bottom: 16px;
+}
+
+.footerLink{
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 16px;
+    font-size: 13px;
+}
+
+.footerLink > a:hover{
+    text-decoration: underline;
+}
+
+.footerLink > a {
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+
+}

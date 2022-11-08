@@ -11,9 +11,8 @@ export default function InfoBoxItem(props) {
                 { props.title }
             </button>
             
-            
             <div className={open ? 'infoBoxContent__open' : 'infoBoxContent__closed'}>
-                <span className='infoBoxText'>Test</span>
+                <span className='infoBoxText'>{props.content}</span>
             </div> 
             
         </li>

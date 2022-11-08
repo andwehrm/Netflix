@@ -17,7 +17,7 @@ export default function StartPageHeader() {
           <LanguagePicker/>
           <LoginButton/>
         </StaticHeader>
-        <ImageBackground img='images/header.jpeg' alt='' height={800}>
+        <ImageBackground img='images/header.jpeg' alt='' height={750}>
           <TitledMailRegister context='header'
                               title='Unbegrenzt Filme, Serien und mehr'
                               subtitle='Genießen Sie Netflix, wo immer Sie möchten. Jederzeit kündbar.'

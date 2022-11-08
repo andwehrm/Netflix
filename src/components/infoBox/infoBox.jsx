@@ -5,7 +5,7 @@ import './infoBox.css'
 export default function InfoBox(props) {
 
   const infoBoxItems = props.questions.map(question => {
-    return <InfoBoxItem title={question.text} />   
+    return <InfoBoxItem title={question.question} content={question.awnser} />   
   })
 
   return (
