@@ -1,32 +1,31 @@
-
-.card_container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+.card_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-.jumbo_card{
-    flex: 0 1 auto;
+.jumbo_card {
+  flex: 0 1 auto;
 }
 
-.jumbo_card > h1 , .jumbo_card > h2{
-    display: block;
-    color: rgb(255, 255, 255);
-    letter-spacing: normal;
-
+.jumbo_card > h1,
+.jumbo_card > h2 {
+  display: block;
+  color: rgb(255, 255, 255);
+  letter-spacing: normal;
 }
-.jumbo_card > h1{
-    font-size: 50px;
-    font-weight: 500;
-    width: 547px;
+.jumbo_card > h1 {
+  font-size: 50px;
+  font-weight: 500;
+  width: 547px;
 }
 
-.jumbo_card > h2{
-    font-size: 26px;
-    font-weight: 400;
-    height: 66px;
-    width: 547px;
+.jumbo_card > h2 {
+  font-size: 26px;
+  font-weight: 400;
+  height: 66px;
+  width: 547px;
 }
