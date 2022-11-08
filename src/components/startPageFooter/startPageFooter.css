@@ -1,31 +1,31 @@
-.startPageFooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 900px;
+.startPageFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
 }
-.startPageFooterContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 30px;
+.startPageFooterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .startPageFooter > .languagePicker {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
-.startPageFooter > h1{
-    align-self: flex-start;
-    color: rgb(115, 115, 115);
-    font-size: 18px;
-    font-weight: 400;
+.startPageFooter > h1 {
+  align-self: flex-start;
+  color: rgb(115, 115, 115);
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .startPageFooter > p {
-    align-self: flex-start;
-    color: rgb(115, 115, 115);
-    font-size: 14px;
+  align-self: flex-start;
+  color: rgb(115, 115, 115);
+  font-size: 14px;
 }

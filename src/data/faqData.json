@@ -1,4 +1,4 @@
-[ 
+[
   {
     "id": 0,
     "question": "Welche Inhalte kann ich auf Netflix sehen?",
@@ -14,10 +14,10 @@
     "question": "Wie viel kostet Netflix?",
     "awnser": "Für einen monatlichen Pauschalbetrag können Sie Netflix auf Ihrem Smartphone, Tablet, Smart-TV, Laptop oder Streaming-Gerät genießen. Die Abos kosten 4,99 € bis 17,99 € pro Monat. Keine Extrakosten, keine Verträge."
   },
-  { 
+  {
     "id": 3,
     "question": "Was ist anders beim Basis-Abo mit Werbung?",
-    "awnser":"Das Basis-Abo mit Werbung ist eine tolle Möglichkeit, Filme und Serien zu einem günstigeren Preis zu genießen. Sie können Ihre Lieblingstitel auf jedem beliebigen Endgerät mit begrenzten Werbeunterbrechungen streamen. Mit diesem Abo sind keine Downloads möglich und eine begrenzte Anzahl von Filmen und Serien ist aus Lizenzgründen nicht verfügbar. Es gelten auch einige Einschränkungen in Bezug auf Standort und Endgerät."
+    "awnser": "Das Basis-Abo mit Werbung ist eine tolle Möglichkeit, Filme und Serien zu einem günstigeren Preis zu genießen. Sie können Ihre Lieblingstitel auf jedem beliebigen Endgerät mit begrenzten Werbeunterbrechungen streamen. Mit diesem Abo sind keine Downloads möglich und eine begrenzte Anzahl von Filmen und Serien ist aus Lizenzgründen nicht verfügbar. Es gelten auch einige Einschränkungen in Bezug auf Standort und Endgerät."
   },
   {
     "id": 4,

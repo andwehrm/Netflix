@@ -1,28 +1,30 @@
-.titledMailRegisterTitle > h1, .titledMailRegisterTitle > h2, .titledMailRegisterTitle > h3{
-    color: rgb(255, 255, 255);
-    display: block;
-    text-align: center;
+.titledMailRegisterTitle > h1,
+.titledMailRegisterTitle > h2,
+.titledMailRegisterTitle > h3 {
+  color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
 }
 
 .titledMailRegisterTitle > h1 {
-    font-size: 64px;
-    font-weight: 500;
-    height: 140px;
-    line-height: 70.400002px;
-    width: 800px;
+  font-size: 64px;
+  font-weight: 500;
+  height: 140px;
+  line-height: 70.400002px;
+  width: 800px;
 }
 
 .titledMailRegisterTitle > h2 {
-    font-size: 26px;
-    font-weight: 400;
-    height: 33px;
-    width: 800px;
+  font-size: 26px;
+  font-weight: 400;
+  height: 33px;
+  width: 800px;
 }
 
 .titledMailRegisterTitle > h3 {
-    font-size: 19.200001px;
-    font-weight: 400;
-    height: 48px;
-    max-width: none;
-    width: 855px;
+  font-size: 19.200001px;
+  font-weight: 400;
+  height: 48px;
+  max-width: none;
+  width: 855px;
 }

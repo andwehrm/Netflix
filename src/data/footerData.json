@@ -1,78 +1,78 @@
 [
-    {
-      "id": 1,
-      "text": "Häufig gestellte Fragen (FAQ)"
-    },
-    {
-      "id": 2,
-      "text": "Mitgliedschaft kündigen"
-    },
-    {
-      "id": 3,
-      "text": "Hilfe-Center"
-    },
-    {
-      "id": 4,
-      "text": "Konto"
-    },
-    {
-      "id": 5,
-      "text": "Medien-Center"
-    },
-    {
-      "id": 6,
-      "text": "Anlegerbeziehungen"
-    },
-    {
-      "id": 7,
-      "text": "Karriere"
-    },
-    {
-      "id": 8,
-      "text": "Geschenkkarten einlösen"
-    },
-    {
-      "id": 9,
-      "text": "Geschenkkarten kaufen"
-    },
-    {
-      "id": 10,
-      "text": "So können Sie Netflix ansehen"
-    },
-    {
-      "id": 11,
-      "text": "Nutzungsbedingungen"
-    },
-    {
-      "id": 12,
-      "text": "Datenschutz"
-    },
-    {
-      "id": 13,
-      "text": "Cookie-Einstellungen"
-    },
-    {
-      "id": 14,
-      "text": "Impressum"
-    },
-    {
-      "id": 15,
-      "text": "Kontakt"
-    },
-    {
-      "id": 16,
-      "text": "Geschwindigkeitstest"
-    },
-    {
-      "id": 17,
-      "text": "Gesetzliche Garantie" 
-    },
-    {
-      "id": 18,
-      "text": "Rechtliche Hinweise"
-    },
-    {
-      "id": 19,
-      "text": "Nur auf Netflix"
-    }
-  ]
+  {
+    "id": 1,
+    "text": "Häufig gestellte Fragen (FAQ)"
+  },
+  {
+    "id": 2,
+    "text": "Mitgliedschaft kündigen"
+  },
+  {
+    "id": 3,
+    "text": "Hilfe-Center"
+  },
+  {
+    "id": 4,
+    "text": "Konto"
+  },
+  {
+    "id": 5,
+    "text": "Medien-Center"
+  },
+  {
+    "id": 6,
+    "text": "Anlegerbeziehungen"
+  },
+  {
+    "id": 7,
+    "text": "Karriere"
+  },
+  {
+    "id": 8,
+    "text": "Geschenkkarten einlösen"
+  },
+  {
+    "id": 9,
+    "text": "Geschenkkarten kaufen"
+  },
+  {
+    "id": 10,
+    "text": "So können Sie Netflix ansehen"
+  },
+  {
+    "id": 11,
+    "text": "Nutzungsbedingungen"
+  },
+  {
+    "id": 12,
+    "text": "Datenschutz"
+  },
+  {
+    "id": 13,
+    "text": "Cookie-Einstellungen"
+  },
+  {
+    "id": 14,
+    "text": "Impressum"
+  },
+  {
+    "id": 15,
+    "text": "Kontakt"
+  },
+  {
+    "id": 16,
+    "text": "Geschwindigkeitstest"
+  },
+  {
+    "id": 17,
+    "text": "Gesetzliche Garantie"
+  },
+  {
+    "id": 18,
+    "text": "Rechtliche Hinweise"
+  },
+  {
+    "id": 19,
+    "text": "Nur auf Netflix"
+  }
+]

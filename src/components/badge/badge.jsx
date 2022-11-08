@@ -1,10 +1,6 @@
-import React from 'react'
-import './badge.css'
+import React from "react";
+import "./badge.css";
 
 export default function Badge(props) {
-  return (
-    <div className='badge'>
-        {props.text}
-    </div>
-  )
+  return <div className="badge">{props.text}</div>;
 }

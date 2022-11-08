@@ -1,8 +1,8 @@
-.staticLogo{
-    z-index: 1;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 45px;
-    width: 180px;
-    height: auto;
+.staticLogo {
+  z-index: 1;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 45px;
+  width: 180px;
+  height: auto;
 }

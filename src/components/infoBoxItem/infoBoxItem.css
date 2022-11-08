@@ -1,52 +1,53 @@
 .infoBoxItem {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
-.infoBoxText{
-    color: rgb(255, 255, 255);
-    direction: ltr;
-    display: inline-block;
-    font-size: 26px;
-    font-weight: 400;
-    height: fit-content;
-    padding: 31px;
-    text-align: left;
-    width: 752px;
+.infoBoxText {
+  color: rgb(255, 255, 255);
+  direction: ltr;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 400;
+  height: fit-content;
+  padding: 31px;
+  text-align: left;
+  width: 752px;
 }
 
-.infoBoxContent__open, .infoBoxContent__closed {
-    background-color: rgb(48, 48, 48);
-    color: rgb(255, 255, 255);
-    font-size: 26px;
-    font-weight: 400;
-    max-height: 1200px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    text-align: left;
-    transition-delay: 0s;
-    transition-duration: 0.25s;
-    transition-property: max-height;
-    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
-    width: 815px;
+.infoBoxContent__open,
+.infoBoxContent__closed {
+  background-color: rgb(48, 48, 48);
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 400;
+  max-height: 1200px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: left;
+  transition-delay: 0s;
+  transition-duration: 0.25s;
+  transition-property: max-height;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  width: 815px;
 }
 
 .infoBoxContent__closed {
-    max-height: 0px;
+  max-height: 0px;
 }
 
-.infoBoxItem > button{
-    background-color: rgb(48, 48, 48);
-    border: none;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 26px;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: normal;
-    list-style-type: none;
-    margin-bottom: 1px;
-    padding: 20px 31px 20px 57px;
-    position: relative;
-    text-align: left;
-    width: 815px;
+.infoBoxItem > button {
+  background-color: rgb(48, 48, 48);
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  list-style-type: none;
+  margin-bottom: 1px;
+  padding: 20px 31px 20px 57px;
+  position: relative;
+  text-align: left;
+  width: 815px;
 }

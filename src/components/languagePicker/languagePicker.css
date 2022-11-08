@@ -1,22 +1,22 @@
-.languagePicker{
-    margin-right: 32px;
+.languagePicker {
+  margin-right: 32px;
 }
 
-.languagePicker > select{
-    align-items: center;
-    appearance: none;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
-    border-width: 1px;
-    border-color: rgb(170, 170, 170);
-    border-style: solid;
-    color: rgb(255, 255, 255);
-    cursor: default;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    height: 36px;
-    line-height: 18.200001px;
-    padding: 8px 22px 8px 22px;
-    width: 100px;
+.languagePicker > select {
+  align-items: center;
+  appearance: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: rgb(170, 170, 170);
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  cursor: default;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  height: 36px;
+  line-height: 18.200001px;
+  padding: 8px 22px 8px 22px;
+  width: 100px;
 }
