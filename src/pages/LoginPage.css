@@ -1,4 +1,4 @@
-.startPageFooterContainer{
+.loginPage  > .startPageFooterContainer{
     position: relative;
     top: -190px;
     background-color: rgba(0,0,0,0.4);
@@ -7,6 +7,7 @@
     margin-top: 5px;
     padding: 0;
 }
+
 .loginPage{
     height: 1px;
 }
