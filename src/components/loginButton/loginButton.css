@@ -1,27 +1,14 @@
 .loginButton > a{
     background-color: rgb(229, 9, 20);
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-radius: 3px;
     color: rgb(255, 255, 255);
     cursor: auto;
-    direction: ltr;
     display: block;
-    float: none;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     height: 20px;
-    letter-spacing: normal;
-    line-height: normal;
-    margin-top: 0px;
-    padding-bottom: 7px;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 7px;
+    padding: 7px 17px 7px 17px;
     text-decoration: none;
     text-decoration-line: none;
-    white-space: nowrap;
-    width: 73.828125px;
+    width: 73px;
 }

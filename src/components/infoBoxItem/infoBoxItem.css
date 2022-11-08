@@ -6,18 +6,12 @@
     color: rgb(255, 255, 255);
     direction: ltr;
     display: inline-block;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: 400;
     height: fit-content;
-    letter-spacing: normal;
-    list-style-type: none;
-    padding-bottom: 31.200001px;
-    padding-left: 31.200001px;
-    padding-right: 31.200001px;
-    padding-top: 31.200001px;
+    padding: 31px;
     text-align: left;
-    width: 752.625px;
+    width: 752px;
 }
 
 .infoBoxContent__open, .infoBoxContent__closed {
@@ -41,24 +35,18 @@
 }
 
 .infoBoxItem > button{
-    appearance: button;
     background-color: rgb(48, 48, 48);
     border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-size: 26px;
     font-weight: 400;
-    height: 74.59375px;
     letter-spacing: normal;
     line-height: normal;
     list-style-type: none;
     margin-bottom: 1px;
-    padding-bottom: 20.799999px;
-    padding-left: 31.200001px;
-    padding-right: 57.200001px;
-    padding-top: 20.799999px;
+    padding: 20px 31px 20px 57px;
     position: relative;
     text-align: left;
-    text-indent: 0px;
     width: 815px;
 }

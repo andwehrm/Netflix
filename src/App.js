@@ -166,7 +166,7 @@ function App() {
   return (
     <div className="App">
       <StartPageHeader/>
-      <DividedLayout>
+      <DividedLayout dividerHeight='8px' dividerColor='#1f1f1f'>
         {jumbotrons}
         <InfoBoxRegister questions={faq_questions}/>
         <StartPageFooter links={footer_links}/>

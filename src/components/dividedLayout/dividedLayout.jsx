@@ -8,7 +8,7 @@ export default function DividedLayout(props) {
         {React.Children.map(props.children, (child) => {          
          return ( 
          <>
-          <hr className='pageDivider'></hr> 
+          <hr className='pageDivider' style={{backgroundColor: props.dividerColor, height: props.dividerHeight}}></hr> 
           {child} 
          </> 
          )  

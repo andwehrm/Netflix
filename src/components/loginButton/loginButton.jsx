@@ -1,10 +1,10 @@
 import React from 'react'
 import './loginButton.css'
 
-export default function LoginButton() {
+export default function LoginButton(props) {
   return (
     <div className='loginButton'>
-        <a href='http://localhost:3000'>Einloggen</a>
+        <a href={props.link}>Einloggen</a>
     </div>
   )
 }

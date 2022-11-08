@@ -12,43 +12,21 @@
     flex: 0 1 auto;
 }
 
-.jumbo_card > h1{
-    -webkit-font-smoothing: antialiased;
-    color: rgb(255, 255, 255);
-    direction: ltr;
+.jumbo_card > h1 , .jumbo_card > h2{
     display: block;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+
+}
+.jumbo_card > h1{
     font-size: 50px;
     font-weight: 500;
-    letter-spacing: normal;
-    margin-block-end: 8px;
-    margin-block-start: 0px;
-    margin-bottom: 8px;
-    margin-inline-end: 0px;
-    margin-inline-start: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    width: 547.046875px;
+    width: 547px;
 }
 
 .jumbo_card > h2{
-    -webkit-font-smoothing: antialiased;
-    color: rgb(255, 255, 255);
-    direction: ltr;
-    display: block;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: 400;
     height: 66px;
-    letter-spacing: normal;
-    margin-block-end: 6.5px;
-    margin-block-start: 19.5px;
-    margin-bottom: 6.5px;
-    margin-inline-end: 0px;
-    margin-inline-start: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 19.5px;
-    width: 547.046875px;
+    width: 547px;
 }

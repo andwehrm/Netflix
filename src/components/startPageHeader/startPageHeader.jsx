@@ -11,11 +11,13 @@ import AdBanner from '../adBanner/adBanner'
 export default function StartPageHeader() {
   return (
     <div className='startPageHeader'>
-        <AdBanner/>
+        <AdBanner badgeText='Neu!' bannerText ='Abos jetzt schon ab' 
+                  bannerAmount='4,99€' link='localhost:3000'
+                  CTAtext='Weitere Infos &gt;'/>
         <StaticLogo/>
         <StaticHeader>
           <LanguagePicker/>
-          <LoginButton/>
+          <LoginButton link='localhost:3000'/>
         </StaticHeader>
         <ImageBackground img='images/header.jpeg' alt='' height={750}>
           <TitledMailRegister context='header'

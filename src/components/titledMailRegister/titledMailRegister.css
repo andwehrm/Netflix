@@ -1,38 +1,29 @@
-.titledMailRegisterTitle > h1 {
+
+.titledMailRegisterTitle > h1, .titledMailRegisterTitle > h2, .titledMailRegisterTitle > h3{
     color: rgb(255, 255, 255);
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.titledMailRegisterTitle > h1 {
     font-size: 64px;
     font-weight: 500;
     height: 140px;
-    letter-spacing: normal;
     line-height: 70.400002px;
-    text-align: center;
     width: 800px;
 }
 
 .titledMailRegisterTitle > h2 {
-    color: rgb(255, 255, 255);
-    direction: ltr;
-    display: block;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: 400;
     height: 33px;
-    letter-spacing: normal;
-    text-align: center;
     width: 800px;
 }
 
 .titledMailRegisterTitle > h3 {
-    color: rgb(255, 255, 255);
-    direction: ltr;
-    display: block;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 19.200001px;
     font-weight: 400;
     height: 48px;
-    letter-spacing: normal;
     max-width: none;
-    text-align: center;
     width: 855px;
 }
