@@ -3,19 +3,22 @@ import "./imageBackground.css";
 
 export default function ImageBackground(props) {
   let height = props.height || "750px";
-  let contentpos = props.height * -1.73333 || "-1300px";
-  let gradientHeight = (props.height + 4) * -1 || "-754px";
+  let contentpos = props.height / 4 || "187px";
+  let bgColor = "rgba(0, 0, 0," + (props.opacity || "0.4") + ")";
 
   return (
     <div className="imageBackground" style={{ height: height }}>
-      <img src={props.img} alt={props.alt} style={{ height: height }}></img>
       <div
         className="imageBackgroundGradient"
-        style={{ height: props.height, top: gradientHeight }}
+        style={{
+          height: height,
+          backgroundColor: bgColor,
+        }}
       />
-      <div className="imageBackgroundContent " style={{ top: contentpos }}>
+      <div className="imageBackgroundContent" style={{ marginTop: contentpos }}>
         {props.children}
       </div>
+      <img src={props.img} alt={props.alt} style={{ height: height }}></img>
     </div>
   );
 }

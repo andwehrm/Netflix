@@ -1,4 +1,5 @@
 .adBanner {
+  z-index: 15;
   background-color: white;
   min-height: 4rem;
   display: flex;

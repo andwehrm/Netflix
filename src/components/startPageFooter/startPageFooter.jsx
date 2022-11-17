@@ -9,7 +9,7 @@ export default function StartPageFooter(props) {
       <div className="startPageFooter">
         <h1>{props.title}</h1>
         <FooterLinkStructure {...props} />
-        <LanguagePicker />
+        <LanguagePicker color="#737373" />
         {props.country && <p>{props.country}</p>}
       </div>
     </div>

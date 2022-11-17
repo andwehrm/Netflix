@@ -14,7 +14,7 @@ const languages = [
   },
 ];
 
-export default function LanguagePicker() {
+export default function LanguagePicker(props) {
   const [language, setLanguage] = React.useState("de");
 
   const langOptions = languages.map((language) => {
@@ -28,6 +28,7 @@ export default function LanguagePicker() {
   return (
     <div className="languagePicker">
       <select
+        style={{ color: props.color }}
         onChange={(event) => {
           setLanguage(event.target.value);
         }}

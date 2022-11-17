@@ -20,7 +20,7 @@ export default function StartPageHeader() {
       />
       <StaticLogo />
       <StaticHeader>
-        <LanguagePicker />
+        <LanguagePicker color="#ffffff" />
         <LoginButton link="http://localhost:3000/login" />
       </StaticHeader>
       <ImageBackground img="images/header.jpeg" alt="" height={750}>
