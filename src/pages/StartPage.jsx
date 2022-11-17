@@ -7,7 +7,6 @@ import StartPageHeader from "../components/startPageHeader/startPageHeader";
 import InfoBoxRegister from "../components/infoBoxRegister/infoBoxRegister";
 import StartPageFooter from "../components/startPageFooter/startPageFooter";
 
-
 function StartPage() {
   let i = 0;
   const jumbotrons = jumboData.map((jumbo) => {

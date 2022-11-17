@@ -35,6 +35,27 @@
   max-height: 0px;
 }
 
+#thin-x.svg-closed,
+#thin-x.svg-opened {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  fill: rgb(255, 255, 255);
+  height: 26px;
+  right: 26px;
+  top: 37px;
+  width: 26px;
+  word-spacing: 0px;
+}
+
+#thin-x.svg-opened {
+  transform: matrix(1, 0, 0, 1, 0, -13);
+}
+#thin-x.svg-closed {
+  transform: matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, -13);
+}
+
 .infoBoxItem > button {
   background-color: rgb(48, 48, 48);
   border: none;
